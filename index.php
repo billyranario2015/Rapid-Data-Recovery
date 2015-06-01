@@ -62,9 +62,7 @@
 	<section class="container" id="main-container">
 		<div class="main-content">
 			<section class="col-md-9 banner">
-				<div class="banner-content">
-					<img src="img/bg-blue.jpg">
-				</div>
+				
 			</section>
 			<section class="col-md-3">
 				
