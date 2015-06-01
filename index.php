@@ -9,6 +9,8 @@
 	<meta content="index, follow, all" name="robots" />
     <meta name="description" content="Rapid Data Recovery Experts" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -61,16 +63,73 @@
 	</header>
 	<section class="container" id="main-container">
 		<div class="main-content">
-			<section class="col-md-9 banner">
-				
+			<section class="row">
+				<section class="col-md-9 banner">
+					<img src="img/bg-blue.jpg">
+				</section>
+				<section class="col-md-3 form-inquiry">
+					<form method="post" role="form">
+						<h4 class="title">NO OBLIGATION QUOTE</h4>
+						<div class="input-group">						
+							<span class="input-group-addon">
+								<i class="fa fa-user fa-fw"></i>
+							</span>
+							<input type="text" class="form-control" placeholder="Enter Full Name" name="enquiry[fullname]">
+						</div>
+						<div class="input-group">						
+							<span class="input-group-addon">
+								<i class="fa fa-envelope fa-fw"></i>
+							</span>
+							<input type="email" class="form-control" placeholder="email@address.com" name="enquiry[email]">
+						</div>
+						<div class="input-group">						
+							<span class="input-group-addon">
+								<i class="fa fa-phone fa-fw"></i>
+							</span>
+							<input type="text" class="form-control" placeholder="+44 1234 567" name="enquiry[phone]">
+						</div>
+						<div class="input-group">						
+							<span class="input-group-addon select">
+								<i class="fa fa-tasks fa-fw"></i>
+							</span>
+							<select name="enquiry[type]" id="" class="form-control select-control">
+								<option value="">-- Server Type --</option>
+								<option value="HP">HP</option>
+								<option value="IBM">IBM</option>
+								<option value="Dell">Dell</option>
+								<option value="Exchange">Exchange</option>
+								<option value="NAS">NAS</option>
+								<option value="Others">Other</option>
+							</select>
+						</div>
+						<p class="text-warning">We keep your details confidential and will not share them<br>with any third parties. </p>
+						<input name="form-intent" value="enquiry" type="hidden">
+						<button class="btn btn-primary" role="submit">SUBMIT</button>
+					</form>
+				</section>
 			</section>
-			<section class="col-md-3">
-				
+
+			<section class="row">
+				<div class="col-md-3">					
+				</div>
+				<div class="col-md-3">					
+				</div>
+				<div class="col-md-3">					
+				</div>
+				<div class="col-md-3">					
+				</div>	
 			</section>
-		</div>
+
+		</div>			
+
 	</section>
 	<footer>
 		
 	</footer>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
 </body>
 </html>
