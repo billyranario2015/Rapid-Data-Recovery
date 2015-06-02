@@ -105,6 +105,15 @@ header {
 .steps {
 	margin-top: 15px;
 }
+.steps .one {
+	z-index: 999;
+}
+.steps .two {
+	z-index: 998;
+}
+.steps .three {
+	z-index: 997;
+}
 .step:not(:last-child) a img {
 	float: right;
 	position: relative;
@@ -170,7 +179,7 @@ header {
 	margin-top: 15px;
 }
 .feature-content {
-	padding-left: 0;
+	padding: 0;
 	margin-bottom: 12px;
 }
 .feature-box {

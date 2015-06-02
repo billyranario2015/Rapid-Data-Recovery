@@ -110,35 +110,35 @@
 			</section>
 
 			<section class="row container steps">
-				<div class="col-md-3 step step-contact-us">
+				<div class="col-md-3 step step-contact-us wow one fadeInLeft" data-wow-duration=".5s">
 					<a href="#">
 						<div class="icon-box"></div>
 						<img src="img/arrow-1.png">	
 					</a>		
 				</div>
-				<div class="col-md-3 step step-send-server">			
+				<div class="col-md-3 step step-send-server wow two fadeInLeft" data-wow-duration=".5s" data-wow-delay=".6s">			
 					<a href="">
 						<div class="icon-box"></div>
 						<img src="img/arrow-2.png">						
 					</a>
 				</div>
-				<div class="col-md-3 step step-recover-data">
+				<div class="col-md-3 step step-recover-data wow three fadeInLeft" data-wow-duration=".5s" data-wow-delay="1s">
 					<a href="">
 						<div class="icon-box"></div>
 						<img src="img/arrow-3.png">						
 					</a>
 				</div>
-				<div class="col-md-3 step step-data-back">
+				<div class="col-md-3 step step-data-back wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="1.5s">
 					<a href="">
 						<div class="icon-box"></div>
 						<img src="img/arrow-4a.jpg">
-						<img src="img/arrow-4.png" class="arrow-top">
+						<img src="img/arrow-4.png" class="arrow-top wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.8s">
 					</a>				
 				</div>	
 			</section>
 
 			<div class="feature-container">
-				<div class="col-md-12 feature-content">
+				<div class="col-md-12 feature-content wow bounceInLeft">
 					<div class="feature-box">
 						<div class="col-md-3">
 							<img src="img/hard_drive_recovery-new.png">
@@ -156,7 +156,7 @@
 						</div>					
 					</div>
 				</div>
-				<div class="col-md-12 feature-content">
+				<div class="col-md-12 feature-content wow bounceInRight">
 					<div class="feature-box">
 						<div class="col-md-3">
 							<img src="img/raid_recovery-new.png">
@@ -174,7 +174,7 @@
 						</div>					
 					</div>
 				</div>
-				<div class="col-md-12 feature-content">
+				<div class="col-md-12 feature-content wow bounceInLeft">
 					<div class="feature-box">
 						<div class="col-md-3">
 							<img src="img/recovery_software-new.png">
@@ -195,7 +195,7 @@
 			</div>
 		</div>
 		<div class="partners">
-			<div class="container">
+			<div class="container wow fadeInDown">
 				<img src="img/footer_certified.png">
 				<img src="img/footer_logos.png">
 			</div>
@@ -244,5 +244,6 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
