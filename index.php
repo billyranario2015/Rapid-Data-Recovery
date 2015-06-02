@@ -61,13 +61,13 @@
 			</div>
 		</section>				
 	</header>
-	<section class="container" id="main-container">
-		<div class="main-content">
+	<section class="container-fluid remove-side-padding" id="main-container">
+		<div class="container main-content">
 			<section class="row">
 				<section class="col-md-9 banner">
 					<img src="img/bg-blue.jpg">
 				</section>
-				<section class="col-md-3 form-inquiry">
+				<section class="col-md-3 remove-padding-left form-inquiry">
 					<form method="post" role="form">
 						<h4 class="title">NO OBLIGATION QUOTE</h4>
 						<div class="input-group">						
@@ -92,7 +92,7 @@
 							<span class="input-group-addon select">
 								<i class="fa fa-tasks fa-fw"></i>
 							</span>
-							<select name="enquiry[type]" id="" class="form-control select-control">
+							<select name="enquiry" id="" class="form-control select-control">
 								<option value="">-- Server Type --</option>
 								<option value="HP">HP</option>
 								<option value="IBM">IBM</option>
@@ -109,22 +109,135 @@
 				</section>
 			</section>
 
-			<section class="row">
-				<div class="col-md-3">					
+			<section class="row container steps">
+				<div class="col-md-3 step step-contact-us">
+					<a href="#">
+						<div class="icon-box"></div>
+						<img src="img/arrow-1.png">	
+					</a>		
 				</div>
-				<div class="col-md-3">					
+				<div class="col-md-3 step step-send-server">			
+					<a href="">
+						<div class="icon-box"></div>
+						<img src="img/arrow-2.png">						
+					</a>
 				</div>
-				<div class="col-md-3">					
+				<div class="col-md-3 step step-recover-data">
+					<a href="">
+						<div class="icon-box"></div>
+						<img src="img/arrow-3.png">						
+					</a>
 				</div>
-				<div class="col-md-3">					
+				<div class="col-md-3 step step-data-back">
+					<a href="">
+						<div class="icon-box"></div>
+						<img src="img/arrow-4a.jpg">
+						<img src="img/arrow-4.png" class="arrow-top">
+					</a>				
 				</div>	
 			</section>
 
-		</div>			
-
+			<div class="feature-container">
+				<div class="col-md-12 feature-content">
+					<div class="feature-box">
+						<div class="col-md-3">
+							<img src="img/hard_drive_recovery-new.png">
+						</div>	
+						<div class="col-md-9 remove-side-padding">
+							<h4>Hard Drive Recovery</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>					
+					</div>
+				</div>
+				<div class="col-md-12 feature-content">
+					<div class="feature-box">
+						<div class="col-md-3">
+							<img src="img/raid_recovery-new.png">
+						</div>	
+						<div class="col-md-9 remove-side-padding">
+							<h4>RAID Recovery</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>					
+					</div>
+				</div>
+				<div class="col-md-12 feature-content">
+					<div class="feature-box">
+						<div class="col-md-3">
+							<img src="img/recovery_software-new.png">
+						</div>	
+						<div class="col-md-9 remove-side-padding">						
+							<h4>Recovery Software</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="partners">
+			<div class="container">
+				<img src="img/footer_certified.png">
+				<img src="img/footer_logos.png">
+			</div>
+		</div>	
 	</section>
-	<footer>
-		
+
+	<footer class="container-fluid remove-side-padding">
+		<div class="about-company">
+			<div class="container">
+				<div class="col-md-4">
+					<h4>Why Choose Us</h4>
+					<p class="text-justify">  
+						Choosing a data recovery company is possibly the most important decision you will make when you have lost data. Despite our low costs, Rapid Data Recovery does not compromise on the level of service it provides to its clients. All recoveries are completed using our state of the art laboratory with technicians with a minimum of five years experience in the industry.	We support all types of media including hard drives, RAID array, camera media and various forms of removable media.
+					</p>
+				</div>
+				<div class="col-md-2">
+					<h4>We offer</h4>
+					<ul>
+						<li><a href="">Hard Drive Recovery</a></li>
+						<li><a href="">RAID Recovery</a></li>
+						<li><a href="">Recovery Software</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3"></div>
+				<div class="col-md-3">
+					<h4>SUBSCRIBE</h4>
+					<form>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="email@address.com" aria-describedby="basic-addon2">
+							<span class="input-group-addon btn btn-primary" id="basic-addon2">Subscribe</span>
+						</div>						
+					</form>
+					<br>
+					<p>Your details will not be shared with any third party</p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<p>"Rapid Data Recovery have given me a quick, accurate and friendly service every time." <b>Stuart Byles, June 2014</b></p>
+			</div>
+		</div>
 	</footer>
 
 	<!-- Scripts -->
