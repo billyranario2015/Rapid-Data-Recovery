@@ -92,17 +92,17 @@
 						0800 803 0828
 					</p>
 					<p>
-						<a href="#">
+						<a href="files/RapidUK_terms_and_conditions.pdf" target="__blank">
 							Terms and Conditions 
 						</a>
 					</p>
 					<p>
-						<a href="#">
+						<a href="privacy.php">
 							Privacy Policy 
 						</a>
 					</p>
 					<p>
-						<a href="#">
+						<a href="contact-us.php">
 							Support 
 						</a>
 					</p>
