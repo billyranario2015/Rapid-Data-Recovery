@@ -1,0 +1,219 @@
+/* ---------* Reset CSS *------------ */
+* { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+body {
+	font-family: arial, sans-serif;
+	background-color: #f5f6f7;
+}
+h1 { 
+    font-size: 2.2em; 
+} 
+h2 { 
+    font-size: 2.0em;     
+} 
+h3 { 
+    font-size: 1.8em; 
+} 
+h4 { 
+    font-size: 1.6em;     
+} 
+h5 { 
+    font-size: 1.4em;     
+} 
+p { 
+    font-size: 1.2em;     
+}
+/* ---------* end: Reset CSS *-------- */
+
+
+/* ---------* Imports *--------------- */
+@font-face {
+    font-family: Oswald-Reg;
+    src: url('../fonts/Oswald-Regular.ttf')  format('truetype');
+}
+@font-face {
+	font-family: helvetica-NeueMedium;
+	src: url("../fonts/HelveticaNeue-Medium.otf") format("opentype");
+}
+/* ---------* end: Imports *---------- */
+
+
+/* ---------* Header *---------------- */
+header {
+	background-color: #fff;
+	min-height: 75px;
+	padding-top: 12px;
+	box-shadow: 0 1px 2px #ddd;
+	margin-bottom: 14px;
+}
+.head-title {
+	font-size: 25px;
+	font-weight: normal;
+}
+.head-tag {
+	font-size: 12px;
+	color: #2C3C5D;
+}
+.head-tag,
+.head-title 
+{
+	display: block;
+} 
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+.feature-container {
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+}
+.feature-content {
+	padding: 0;
+	margin-bottom: 12px;
+}
+.feature-content a {
+	color: #000;
+}
+.feature-box {
+	border: 1px solid #ddd;
+	box-shadow: 1px 1px 2px #ddd;
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #fff;
+	float: left;
+}
+.feature-content h4 {
+	font-family: Oswald-Reg;
+	text-transform: uppercase;
+}
+.feature-content p {
+	text-align: justify;
+	margin: 0 0 10px;
+	font-size: .9em;
+	line-height: 1.4em;
+}
+.partners {
+	background-color: #fff;
+	box-shadow: 0 0 2px #ddd;
+	padding: 30px;
+	margin: 12px 0;
+}
+.partners div.container img:last-child {
+	width: 57%;
+	float: right;
+	margin-top: 11px;
+}
+
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+footer .about-company {
+	background-color: #043D63;
+	color: #fff;
+	padding: 20px 0;
+	margin-bottom: 0;
+}
+footer .about-company .contact-us-info a {
+	color: #fff;
+}
+footer .about-company .container div h4{
+	font-size: 1.6em;
+	font-family: Oswald-Reg;
+}
+footer .about-company .container div p {
+	font-size: .8em;
+	color: #ddd;
+}
+footer .about-company .container div:nth-child(2) {
+	
+}
+footer .about-company .container div ul {
+	padding-left: 30px;
+}
+footer .about-company .container div ul li a {
+	font-size: .8em;
+	color: #fff;
+	text-decoration: none;
+}
+footer .about-company .container div form div.input-group span {
+	background-color: #428bca;
+	color: #fff;
+}
+footer .copyright {
+	background-color: #041146;
+	color: #fff;
+	font-size: .8em;
+	margin: 0;
+	border-top: 1px solid #7572C4;
+	padding: 15px 0;
+}
+footer .copyright div p {
+	font-size: 11px;
+	margin: 0;
+}
+
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+.text-orange {
+	color: #FB9634;
+}
+.text-dblue {
+	color:#2C3C5D;
+}
+.remove-side-padding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.remove-padding-left {
+	padding-left: 0 !important
+}
+.remove-padding-right {
+	padding-right: 0 !important
+}
+.text-justify {
+	text-align: justify;
+}
+.text-left {
+	text-align: left;	
+}
+.text-right {
+	text-align: right;
+}
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+.navbar-brand {
+	background: url('../img/rapid_data_logo.png') no-repeat;
+	padding-left: 45px;
+	padding-top: 3px;
+}
+.nav > li > a {
+	padding: 10px 7px;
+	font-family: Oswald-Reg, arial, sans-serif;
+	text-transform: uppercase;
+	color: #646464;
+	letter-spacing: 0.5px;
+}
+.nav > li > a:hover, 
+.nav > li > a:focus
+{
+	text-decoration: none;
+	background: none;
+	color: #FB9634;
+}
+.navbar-toggle {
+	border: 1px solid #2C3C5D;
+	float: right;
+}
+.navbar-toggle span.icon-bar {
+	background-color: #2C3C5D;
+}
+/* ---------* end: Override *--------- */

@@ -1,112 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Rapid Data Recovery</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="author" content="" />
-	<meta content="index, follow, all" name="robots" />
-    <meta name="description" content="Rapid Data Recovery Experts" />
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-</head>
-<body>
-	<header>
-		<section class="navbar bs-docs-nav" id="top" role="banner">
-			<div class="container" id="main-menu-container">
-				<div class="navbar-header">
-					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="" class="navbar-brand">
-						<label class="head-title">
-							<span class="text-orange">rapid</span><span class="text-dblue">data</span><span class="text-orange">recovery</span>							
-						</label>
-						<span class="head-tag">Cheapest Data Recovery in the UK - Guaranteed!</span>
-					</a>
-				</div>
-				<nav class="navbar-collapse bs-navbar-collapse collapse" id="main-menu-wrapper" aria-expanded="false" style="height: 1px;">
-					<ul class="nav navbar-nav navbar-right" id="main-menu">
-						<li>
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="#">Data Recovery Prices</a>
-						</li>
-						<li>
-							<a href="#">Data Recovery Process</a>
-						</li>
-						<li>
-							<a href="#">Why Choose Us</a>
-						</li>
-						<li>
-							<a href="#">What Our Clients Say</a>
-						</li>
-						<li>
-							<a href="#">Guarantee</a>
-						</li>
-						<li>
-							<a href="#">Contact Us</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</section>				
-	</header>
+<?php  include "header.php"; ?>
+
 	<section class="container-fluid remove-side-padding" id="main-container">
 		<div class="container main-content">
 			<section class="row">
 				<section class="col-md-9 banner">
-					<img src="img/bg-blue.jpg">
+					<img src="img/bg-blue.jpg" class="banner-bg">
+					<div class="banner-text ">
+						<h1 class="animated fadeInLeft">Lost Data? No Worries!</h1>
+						<h4 class="animated fadeInRight">Get Your Data Back Now</h4>
+						<h1 class="animated fadeInDownBig">0800 803 0828</h1>
+					</div>
+					<img src="img/lost_data_banner-new.png" class="banner-img">
 				</section>
-				<section class="col-md-3 remove-padding-left form-inquiry">
-					<form method="post" role="form">
-						<h4 class="title">NO OBLIGATION QUOTE</h4>
-						<div class="input-group">						
-							<span class="input-group-addon">
-								<i class="fa fa-user fa-fw"></i>
-							</span>
-							<input type="text" class="form-control" placeholder="Enter Full Name" name="enquiry[fullname]">
-						</div>
-						<div class="input-group">						
-							<span class="input-group-addon">
-								<i class="fa fa-envelope fa-fw"></i>
-							</span>
-							<input type="email" class="form-control" placeholder="email@address.com" name="enquiry[email]">
-						</div>
-						<div class="input-group">						
-							<span class="input-group-addon">
-								<i class="fa fa-phone fa-fw"></i>
-							</span>
-							<input type="text" class="form-control" placeholder="+44 1234 567" name="enquiry[phone]">
-						</div>
-						<div class="input-group">						
-							<span class="input-group-addon select">
-								<i class="fa fa-tasks fa-fw"></i>
-							</span>
-							<select name="enquiry" id="" class="form-control select-control">
-								<option value="">-- Server Type --</option>
-								<option value="HP">HP</option>
-								<option value="IBM">IBM</option>
-								<option value="Dell">Dell</option>
-								<option value="Exchange">Exchange</option>
-								<option value="NAS">NAS</option>
-								<option value="Others">Other</option>
-							</select>
-						</div>
-						<p class="text-warning">We keep your details confidential and will not share them<br>with any third parties. </p>
-						<input name="form-intent" value="enquiry" type="hidden">
-						<button class="btn btn-primary" role="submit">SUBMIT</button>
-					</form>
-				</section>
+				<?php include "form-sidebar.php"; ?>
 			</section>
 
 			<section class="row container steps">
@@ -137,113 +43,36 @@
 				</div>	
 			</section>
 
-			<div class="feature-container">
-				<div class="col-md-12 feature-content wow bounceInLeft">
-					<div class="feature-box">
-						<div class="col-md-3">
-							<img src="img/hard_drive_recovery-new.png">
-						</div>	
-						<div class="col-md-9 remove-side-padding">
-							<h4>Hard Drive Recovery</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-						</div>					
+			<section class="row article-wrapper">
+				<div class="container">
+					<div class="article-content">
+						<h4><span class="text-orange">Data Recovery does</span> <span class="text-dblue">not</span> <span class="text-orange">have to</span> <span class="dblue">cost a fortune</span></h4>
+						<p class="wow fadeInRight">
+							<b>Rapid Data Recovery</b> offer the cheapest data recovery in the UK - and that’s Guaranteed! No other company will recover your data for less. If within 90 days of purchase you find another company in the UK offering a cheaper service, we’ll give you your money back - IN FULL!
+						</p>
+						<p class="wow fadeInLeft">
+							Unlike other companies in our price range, <b>Rapid Data Recovery</b> has access to the latest state of the art equipment. We support all types of media including <b>hard drives</b>, <b>RAID array</b>, <b>camera media</b> and various forms of <b>removable media</b>.
+						</p>
+						<p class="wow fadeInRight">
+							But unlike our competitors, we’re different; we aim to recover your data for just £97. Our unique  data recovery service includes*:
+						</p>
+						<ul class="free fadeInLeft">
+							<li><b>FREE</b> Advice and Consultation.</li>
+							<li><b>FREE</b> Diagnostic Report.</li>
+							<li><b>FREE</b> file listing of all recoverable data..</li>
+							<li><b>NO OBLIGATION</b> fixed quote.</li>
+							<li><b>FREE DATA GUARANTEE</b> – we will recover all recoverable data or no charge.</li>
+							<li><b>No Data, No Fee</b> service.</li>
+							<li><b>FREE</b> After-sales support.</li>
+						</ul>
+						<p class="wow fadeInRight">
+							So get your data back now by clicking on the quote button opposite
+						</p>
+						<a href="get-qoutation.php">
+							<img src="img/button_quote.png">
+						</a>
 					</div>
 				</div>
-				<div class="col-md-12 feature-content wow bounceInRight">
-					<div class="feature-box">
-						<div class="col-md-3">
-							<img src="img/raid_recovery-new.png">
-						</div>	
-						<div class="col-md-9 remove-side-padding">
-							<h4>RAID Recovery</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-						</div>					
-					</div>
-				</div>
-				<div class="col-md-12 feature-content wow bounceInLeft">
-					<div class="feature-box">
-						<div class="col-md-3">
-							<img src="img/recovery_software-new.png">
-						</div>	
-						<div class="col-md-9 remove-side-padding">						
-							<h4>Recovery Software</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-						</div>					
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="partners">
-			<div class="container wow fadeInDown">
-				<img src="img/footer_certified.png">
-				<img src="img/footer_logos.png">
-			</div>
-		</div>	
-	</section>
+			</section>
 
-	<footer class="container-fluid remove-side-padding">
-		<div class="about-company">
-			<div class="container">
-				<div class="col-md-4">
-					<h4>Why Choose Us</h4>
-					<p class="text-justify">  
-						Choosing a data recovery company is possibly the most important decision you will make when you have lost data. Despite our low costs, Rapid Data Recovery does not compromise on the level of service it provides to its clients. All recoveries are completed using our state of the art laboratory with technicians with a minimum of five years experience in the industry.	We support all types of media including hard drives, RAID array, camera media and various forms of removable media.
-					</p>
-				</div>
-				<div class="col-md-2">
-					<h4>We offer</h4>
-					<ul>
-						<li><a href="">Hard Drive Recovery</a></li>
-						<li><a href="">RAID Recovery</a></li>
-						<li><a href="">Recovery Software</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3"></div>
-				<div class="col-md-3">
-					<h4>SUBSCRIBE</h4>
-					<form>
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="email@address.com" aria-describedby="basic-addon2">
-							<span class="input-group-addon btn btn-primary" id="basic-addon2">Subscribe</span>
-						</div>						
-					</form>
-					<br>
-					<p>Your details will not be shared with any third party</p>
-				</div>
-			</div>
-		</div>
-		<div class="copyright">
-			<div class="container">
-				<p>"Rapid Data Recovery have given me a quick, accurate and friendly service every time." <b>Stuart Byles, June 2014</b></p>
-			</div>
-		</div>
-	</footer>
-
-	<!-- Scripts -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/wow.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-</body>
-</html>
+<?php  include "footer.php"; ?>
