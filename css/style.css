@@ -228,4 +228,7 @@ textarea.add-info-ta
 .article-section div div.location-info p span {
 	display: block;
 }
+.article-section.privacy ul {
+	padding-left: 40px;
+}
 /* ------------------------------------------------- */
