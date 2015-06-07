@@ -10,7 +10,7 @@
 							<div class="price col-xs-6 col-sm-4 col-md-4">
 								<div class="recovery-details">
 									<a href="get-qoutation.php">
-										<img src="img/price_disk.jpg">										
+										<img src="img/data-price-1.jpg">										
 									</a>
 									<div class="recovery-price">
 										<p>Hard Drive Recovery from <strong>£97</strong></p>
@@ -21,7 +21,7 @@
 							<div class="price col-xs-6 col-sm-4 col-md-4">
 								<div class="recovery-details">
 									<a href="get-qoutation.php">
-										<img src="img/price_removable.jpg">										
+										<img src="img/data-price-2.jpg">										
 									</a>
 									<div class="recovery-price">
 										<p>Hard Drive Recovery from <strong>£97</strong></p>
@@ -32,7 +32,7 @@
 							<div class="price col-xs-6 col-sm-4 col-md-4">
 								<div class="recovery-details">
 									<a href="get-qoutation.php">
-										<img src="img/price_ipod.jpg">										
+										<img src="img/data-price-3.jpg">										
 									</a>
 									<div class="recovery-price">
 										<p>Hard Drive Recovery from <strong>£97</strong></p>
@@ -43,7 +43,7 @@
 							<div class="price col-xs-6 col-sm-4 col-md-4">
 								<div class="recovery-details">
 									<a href="get-qoutation.php">
-										<img src="img/price_external.jpg">										
+										<img src="img/data-price-4.jpg">										
 									</a>
 									<div class="recovery-price">
 										<p>Hard Drive Recovery from <strong>£97</strong></p>
@@ -54,7 +54,7 @@
 							<div class="price col-xs-6 col-sm-4 col-md-4">
 								<div class="recovery-details">
 									<a href="get-qoutation.php">
-										<img src="img/price_raid.jpg">										
+										<img src="img/data-price-5.jpg">										
 									</a>
 									<div class="recovery-price">
 										<p>Hard Drive Recovery from <strong>£97</strong></p>
@@ -65,7 +65,7 @@
 							<div class="price col-xs-6 col-sm-4 col-md-4">
 								<div class="recovery-details">
 									<a href="get-qoutation.php">
-										<img src="img/price_laptop.jpg">										
+										<img src="img/data-price-6.jpg">										
 									</a>
 									<div class="recovery-price">
 										<p>Hard Drive Recovery from <strong>£97</strong></p>

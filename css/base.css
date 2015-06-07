@@ -86,6 +86,12 @@ header {
 	background-color: #fff;
 	float: left;
 }
+.feature-box a {
+	text-decoration: none;
+}
+.feature-box a div img {
+	width: 210px;
+}
 .feature-content h4 {
 	font-family: Oswald-Reg;
 	text-transform: uppercase;
@@ -201,6 +207,7 @@ footer .copyright div p {
 	text-transform: uppercase;
 	color: #646464;
 	letter-spacing: 0.5px;
+	line-height: 30px;	
 }
 .nav > li > a:hover, 
 .nav > li > a:focus

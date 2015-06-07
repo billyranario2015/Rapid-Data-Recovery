@@ -27,7 +27,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="" class="navbar-brand">
+					<a href="index.php" class="navbar-brand">
 						<label class="head-title">
 							<span class="text-orange">rapid</span><span class="text-dblue">data</span><span class="text-orange">recovery</span>							
 						</label>

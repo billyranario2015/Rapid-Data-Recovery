@@ -4,13 +4,13 @@
 		<div class="container main-content">
 			<section class="row">
 				<section class="col-md-9 banner">
-					<img src="img/bg-blue.jpg" class="banner-bg">
+					<img src="img/bg-blue-2.png" class="banner-bg">
 					<div class="banner-text ">
 						<h1 class="animated fadeInLeft">Lost Data? No Worries!</h1>
 						<h4 class="animated fadeInRight">Get Your Data Back Now</h4>
 						<h1 class="animated fadeInDownBig">0800 803 0828</h1>
 					</div>
-					<img src="img/lost_data_banner-new.png" class="banner-img">
+					<img src="img/banner-img-drive.png" class="banner-img">
 				</section>
 				<?php include "form-sidebar.php"; ?>
 			</section>

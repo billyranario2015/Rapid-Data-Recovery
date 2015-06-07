@@ -3,7 +3,7 @@
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
 							<div class="col-md-3">
-								<img src="img/hard_drive_recovery-new.png">
+								<img src="img/drive5.jpg">
 							</div>	
 							<div class="col-md-9 remove-side-padding">
 								<h4>Hard Drive Recovery</h4>
@@ -23,7 +23,7 @@
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
 							<div class="col-md-3">
-								<img src="img/raid_recovery-new.png">
+								<img src="img/drive4.jpg">
 							</div>	
 							<div class="col-md-9 remove-side-padding">
 								<h4>RAID Recovery</h4>
@@ -43,7 +43,7 @@
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
 							<div class="col-md-3">
-								<img src="img/recovery_software-new.png">
+								<img src="img/drive3.jpg">
 							</div>	
 							<div class="col-md-9 remove-side-padding">						
 								<h4>Recovery Software</h4>
