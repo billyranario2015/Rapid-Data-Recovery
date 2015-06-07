@@ -8,6 +8,7 @@
 	<meta name="author" content="" />
 	<meta content="index, follow, all" name="robots" />
     <meta name="description" content="Rapid Data Recovery Experts" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
