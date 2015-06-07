@@ -13,7 +13,7 @@
 										<img src="img/data-price-1.jpg">										
 									</a>
 									<div class="recovery-price">
-										<p>Hard Drive Recovery from <strong>£97</strong></p>
+										<p>Hard Drive Recovery from <strong>&pound;97</strong></p>
 										<p></p>
 									</div>
 								</div>
@@ -24,7 +24,7 @@
 										<img src="img/data-price-2.jpg">										
 									</a>
 									<div class="recovery-price">
-										<p>Hard Drive Recovery from <strong>£97</strong></p>
+										<p>Media Recovery from <strong>&pound;27</strong></p>
 										<p></p>
 									</div>
 								</div>
@@ -35,7 +35,7 @@
 										<img src="img/data-price-3.jpg">										
 									</a>
 									<div class="recovery-price">
-										<p>Hard Drive Recovery from <strong>£97</strong></p>
+										<p>iPod Recovery from <strong>&pound;97</strong></p>
 										<p></p>
 									</div>
 								</div>
@@ -46,7 +46,7 @@
 										<img src="img/data-price-4.jpg">										
 									</a>
 									<div class="recovery-price">
-										<p>Hard Drive Recovery from <strong>£97</strong></p>
+										<p>External Hard Drive Recovery from <strong>&pound;97</strong></p>
 										<p></p>
 									</div>
 								</div>
@@ -57,7 +57,7 @@
 										<img src="img/data-price-5.jpg">										
 									</a>
 									<div class="recovery-price">
-										<p>Hard Drive Recovery from <strong>£97</strong></p>
+										<p>RAID Recovery from <strong>&pound;297</strong></p>
 										<p></p>
 									</div>
 								</div>
@@ -68,7 +68,7 @@
 										<img src="img/data-price-6.jpg">										
 									</a>
 									<div class="recovery-price">
-										<p>Hard Drive Recovery from <strong>£97</strong></p>
+										<p>Laptop Recovery from <strong>&pound;97</strong></p>
 										<p></p>
 									</div>
 								</div>

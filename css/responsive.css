@@ -31,26 +31,168 @@
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
+@media only screen and (max-width : 1233px) {
+	div.partners .container {
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 1199px) {
+	ul.navbar-right {
+		float: left !important;
+	}
+	section#main-container div.main-content section.row section.banner div.banner-text h1 {
+		font-size: 3.5em;
+	}
+	section#main-container div.main-content section.steps div.step:not(:last-child) a img {
+		width: 150px;
+		height: 106px;
+	}
+	section#main-container div.main-content section.steps div.step:last-child {
+  		padding-right: 3px;
+	}
+	section#main-container div.main-content section.steps div.step:last-child a img.arrow-step {
+		width: 115px;
+		height: 106px;
+	}
+	section#main-container div.main-content section.steps div.step:last-child a img.arrow-top {
+		left: 40px;
+	}
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width : 991px) {
+	div#main-menu-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	div#main-menu-container div.navbar-header,
+	div#main-menu-container nav.navbar-collapse
+	{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	div#main-menu-container div.navbar-header button.navbar-toggle {
+		float: right;
+		border: 1px solid #DDD9D9;
+	}
+	div#main-menu-container div.navbar-header button.navbar-toggle span.icon-bar {
+		background-color: #A8A5A5;
+	}
+	div#main-menu-container nav.navbar-collapse ul.navbar-nav {
+		margin-right: 0;
+		border-top: 1px solid #eee;
+		margin-top: 15px;
+		margin: auto !important;
+		width: 100%;
+	}
+	div#main-menu-container nav.navbar-collapse ul.navbar-nav li {
+		width: 100%;
+	}
+	div#main-menu-container nav.navbar-collapse ul.navbar-nav li a {
+		line-height: 15px;
+	}
+	section#main-container div.main-content section.row section.banner {
+		margin-bottom: 15px;	
+	}
+	section#main-container div.main-content section.row section.banner div.banner-text h1 {
+		font-size: 3.2em;
+	}
+	section#main-container div.main-content section.row section.banner div.banner-text h4 {
+		font-size: 2em;
+	}
+	section#main-container div.main-content section.row section.banner div.banner-img {
+		  bottom: 45px;
+		  width: 320px;
+	}
+	section#main-container div.main-content section.row section.form-inquiry {
+		padding-left: 15px !important;
+	}
+	section#main-container div.main-content div.feature-container div.feature-content {
+		float: left;
+		width: 100%;
+	}
+	section#main-container div.main-content section.steps div.step {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	section#main-container div.main-content section.steps div.step a img {
+		left: 0;
+	}
+	div.article-content div.article-section form div.drive-detail-wrapper {
+		float: left;
+		width: 50%;
+	}
+	div.article-content div.article-section form div.additional-info {
+		float: left;
+		width: 100%;
+	}
+	footer div.about-company div.container > div {
+		min-height: 190px;
+	}
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
+@media only screen and (max-width : 767px) {
+	div.article-content div.article-section form div div.location-info {
+		text-align: left;
+	}
+	div.article-content div.article-section form div.drive-detail-wrapper {
+		width: 100%;
+	}
+	footer div.about-company div.container > div {
+		min-height: 1px;
+	}
+}
+@media only screen and (max-width : 658px) {
+	section#main-container div.main-content section.row section.banner img.banner-img {
+		display: none;
+	}
+}
+@media only screen and (max-width : 549px) {
+	section#main-container div.main-content section.row section.banner div.banner-text h1 span.break-549 {
+		display: block;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 479px) {
 
 }
-
+@media only screen and (max-width : 426px) {
+	div.article-content div.article-section form div div.contact-form fieldset p input.form-control,
+	div.article-content div.article-section form div div.contact-form fieldset p select.form-control
+	{
+		display: block;	
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 408px) {
+	div#main-menu-container div.navbar-header a.navbar-brand label.head-title,
+	div#main-menu-container div.navbar-header a.navbar-brand span.head-tag
+	{
+		display: none;
+	}
+}
+@media only screen and (max-width : 399px) {
+	section#main-container div.main-content section.row section.banner div.banner-text h1 {
+		font-size: 2.6em;
+	}
+	section#main-container div.main-content section.row section.banner div.banner-text h4 {
+		font-size: 1.5em;
+	}
+	section#main-container div.main-content section.row section div.article-content div.article-section > div.price {
+		width: 100% !important;
+		margin-bottom: 15px;
+	}
+}
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-    
+    section#main-container div.main-content section.steps div.step a div.icon-box {
+    	background-image: none;
+    }
+    section#main-container div.main-content section.steps div.step a img {
+    	float: left;
+    }
 }

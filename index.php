@@ -6,7 +6,7 @@
 				<section class="col-md-9 banner">
 					<img src="img/bg-blue-2.png" class="banner-bg">
 					<div class="banner-text ">
-						<h1 class="animated fadeInLeft">Lost Data? No Worries!</h1>
+						<h1 class="animated fadeInLeft">Lost Data? <span class="break-549">No Worries!</span></h1>
 						<h4 class="animated fadeInRight">Get Your Data Back Now</h4>
 						<h1 class="animated fadeInDownBig">0800 803 0828</h1>
 					</div>
@@ -19,26 +19,30 @@
 				<div class="col-md-3 step step-contact-us wow one fadeInLeft" data-wow-duration=".5s">
 					<a href="#">
 						<div class="icon-box"></div>
-						<img src="img/arrow-1.png">	
+						<img src="img/arrow-1.png" class="arrow-step visible-md visible-lg hidden-sm hidden-xs">	
+						<img src="img/plain-arrow-1.jpg" class="hidden-md hidden-lg">
 					</a>		
 				</div>
 				<div class="col-md-3 step step-send-server wow two fadeInLeft" data-wow-duration=".5s" data-wow-delay=".6s">			
 					<a href="">
 						<div class="icon-box"></div>
-						<img src="img/arrow-2.png">						
+						<img src="img/arrow-2.png" class="arrow-step visible-md visible-lg hidden-sm hidden-xs">						
+						<img src="img/plain-arrow-2.jpg" class="hidden-md hidden-lg">
 					</a>
 				</div>
 				<div class="col-md-3 step step-recover-data wow three fadeInLeft" data-wow-duration=".5s" data-wow-delay="1s">
 					<a href="">
 						<div class="icon-box"></div>
-						<img src="img/arrow-3.png">						
+						<img src="img/arrow-3.png" class="arrow-step visible-md visible-lg hidden-sm hidden-xs">						
+						<img src="img/plain-arrow-3.jpg" class="hidden-md hidden-lg">
 					</a>
 				</div>
 				<div class="col-md-3 step step-data-back wow fadeInLeft" data-wow-duration=".5s" data-wow-delay="1.5s">
 					<a href="">
 						<div class="icon-box"></div>
-						<img src="img/arrow-4a.jpg">
-						<img src="img/arrow-4.png" class="arrow-top wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.8s">
+						<img src="img/arrow-4a.jpg" class="arrow-step visible-md visible-lg hidden-sm hidden-xs">
+						<img src="img/plain-arrow-4.jpg" class="hidden-md hidden-lg">
+						<img src="img/arrow-4.png" class="arrow-top wow fadeInUp hidden-sm hidden-xs" data-wow-duration=".5s" data-wow-delay="1.8s">
 					</a>				
 				</div>	
 			</section>
