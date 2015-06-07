@@ -5,12 +5,8 @@
 			<section class="row">
 				<section class="col-md-9">
 					<div class="article-content">
-						<h4><span class="text-orange">Contact Us</span></h4>
+						<h4><span class="text-orange">Get Quotation Now</span></h4>
 						<div class="article-section">
-							<p>
-								Complete the form below to request more information.
-								<span style="display:block">Please complete all fields</span>
-							</p>
 							<form class="form-horizontal"> 
 								<div class="col-md-6 col-sm-6 remove-side-padding">
 									<div class="contact-form">
@@ -35,7 +31,7 @@
 											</fieldset>
 									</div>							
 								</div>
-								<div class="col-md-6 remove-side-padding">
+								<div class="col-md-6 remove-side-padding drive-detail-wrapper">
 									<div class="contact-form">
 											<fieldset>
 												<legend class="text-orange">Drive Details</legend>
@@ -84,7 +80,7 @@
 											</fieldset>
 									</div>								
 								</div>
-								<div class="col-md-12 remove-side-padding">
+								<div class="col-md-12 remove-side-padding additional-info">
 									<p class="input-groups text-inquiry add-text">
 										<span class="text-orange">Additional Information</span>
 										<p>Please describe in details the exact problem of the damaged media:</p>

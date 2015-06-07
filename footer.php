@@ -2,10 +2,10 @@
 				<div class="col-md-12 feature-content wow bounceInLeft">
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-4">
 								<img src="img/drive5.jpg">
 							</div>	
-							<div class="col-md-9 remove-side-padding">
+							<div class="col-md-9 col-sm-8 remove-side-padding">
 								<h4>Hard Drive Recovery</h4>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -19,13 +19,13 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-12 feature-content wow bounceInRight">
+				<div class="col-md-12 feature-content wow bounceInRight">	
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-4">
 								<img src="img/drive4.jpg">
 							</div>	
-							<div class="col-md-9 remove-side-padding">
+							<div class="col-md-9 col-sm-8 remove-side-padding">
 								<h4>RAID Recovery</h4>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -42,10 +42,10 @@
 				<div class="col-md-12 feature-content wow bounceInLeft">
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-4">
 								<img src="img/drive3.jpg">
 							</div>	
-							<div class="col-md-9 remove-side-padding">						
+							<div class="col-md-9 col-sm-8 remove-side-padding">						
 								<h4>Recovery Software</h4>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -72,13 +72,13 @@
 	<footer class="container-fluid remove-side-padding">
 		<div class="about-company">
 			<div class="container">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6 col-xs-12">
 					<h4>Why Choose Us</h4>
 					<p class="text-justify">  
 						Choosing a data recovery company is possibly the most important decision you will make when you have lost data. Despite our low costs, Rapid Data Recovery does not compromise on the level of service it provides to its clients. All recoveries are completed using our state of the art laboratory with technicians with a minimum of five years experience in the industry.	We support all types of media including hard drives, RAID array, camera media and various forms of removable media.
 					</p>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-sm-6 col-xs-12">
 					<h4>We offer</h4>
 					<ul>
 						<li><a href="get-qoutation.php">Hard Drive Recovery</a></li>
@@ -86,7 +86,7 @@
 						<li><a href="get-qoutation.php">Recovery Software</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 contact-us-info">
+				<div class="col-md-3 col-sm-6 col-xs-12 contact-us-info">
 					<h4>Contact Us</h4>
 					<p>
 						0800 803 0828
@@ -107,7 +107,7 @@
 						</a>
 					</p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<h4>SUBSCRIBE</h4>
 					<form>
 						<div class="input-group">
