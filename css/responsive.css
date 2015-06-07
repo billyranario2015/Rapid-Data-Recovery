@@ -149,6 +149,9 @@
 	section#main-container div.main-content div.feature-container div.feature-content div.feature-box a div.feature-img img {
 		width: 210px;
 	}
+	section#main-container div.main-content div.feature-container div.feature-content {
+		padding: 0;
+	}
 	div.partners div.container img:last-child {
 		width: 100%;
 	}
