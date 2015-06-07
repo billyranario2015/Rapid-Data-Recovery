@@ -1,11 +1,11 @@
 			<div class="feature-container">
-				<div class="col-md-12 feature-content wow bounceInLeft">
+				<div class="col-md-4 col-sm-4 col-xs-12 feature-content wow bounceInLeft">
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
-							<div class="col-md-3 col-sm-4">
+							<div class="col-md-12 col-xs-12 col-sm-12 feature-img">
 								<img src="img/drive5.jpg">
 							</div>	
-							<div class="col-md-9 col-sm-8 remove-side-padding">
+							<div class="col-md-12 col-xs-12 col-sm-12">
 								<h4>Hard Drive Recovery</h4>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -19,13 +19,13 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-12 feature-content wow bounceInRight">	
+				<div class="col-md-4 col-sm-4 col-xs-12 feature-content wow bounceInRight">	
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
-							<div class="col-md-3 col-sm-4">
+							<div class="col-md-12 col-xs-12 col-sm-12 feature-img">
 								<img src="img/drive4.jpg">
 							</div>	
-							<div class="col-md-9 col-sm-8 remove-side-padding">
+							<div class="col-md-12 col-xs-12 col-sm-12">
 								<h4>RAID Recovery</h4>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -39,13 +39,13 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-12 feature-content wow bounceInLeft">
+				<div class="col-md-4 col-sm-4 col-xs-12 feature-content wow bounceInLeft">
 					<div class="feature-box">
 						<a href="get-qoutation.php">	
-							<div class="col-md-3 col-sm-4">
+							<div class="col-md-12 col-xs-12 col-sm-12 feature-img">
 								<img src="img/drive3.jpg">
 							</div>	
-							<div class="col-md-9 col-sm-8 remove-side-padding">						
+							<div class="col-md-12 col-xs-12 col-sm-12">						
 								<h4>Recovery Software</h4>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
