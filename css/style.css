@@ -25,8 +25,9 @@
 }
 .banner-img {
 	position: absolute;
-	right: 15px;
-	bottom: 0;
+	right: 20px;
+	bottom: 10px;
+	width: 350px;
 }
 .form-inquiry {
 	float: left;
@@ -175,6 +176,9 @@
 .recovery-details {
 	/*text-align: center;*/
 }
+/*.recovery-details a img {
+	width: 150px;
+}*/
 .recovery-details .recovery-price p {
 	margin: 0;
 }
