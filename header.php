@@ -1,3 +1,7 @@
+<?php 
+$uri = $_SERVER['REQUEST_URI'];
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,25 +41,25 @@
 				</div>
 				<nav class="navbar-collapse bs-navbar-collapse collapse" id="main-menu-wrapper" aria-expanded="false" style="height: 1px;">
 					<ul class="nav navbar-nav navbar-right" id="main-menu">
-						<li>
+						<li class="<?php if( $uri == '/rapid-data-recovery/index.php' ) echo "active"; ?>">
 							<a href="index.php">Home</a>
 						</li>
-						<li>
+						<li class="<?php if( $uri == '/rapid-data-recovery/data-recovery.php' ) echo "active"; ?>">
 							<a href="data-recovery.php">Data Recovery Prices</a>
 						</li>
-						<li>
+						<li class="<?php if( $uri == '/rapid-data-recovery/data-process.php' ) echo "active"; ?>">
 							<a href="data-process.php">Data Recovery Process</a>
 						</li>
-						<li>
+						<li class="<?php if( $uri == '/rapid-data-recovery/whychooseus.php' ) echo "active"; ?>">
 							<a href="whychooseus.php">Why Choose Us</a>
 						</li>
-						<li>
+						<li class="<?php if( $uri == '/rapid-data-recovery/ourclientssay.php' ) echo "active"; ?>">
 							<a href="ourclientssay.php">What Our Clients Say</a>
 						</li>
-						<li>
+						<li class="<?php if( $uri == '/rapid-data-recovery/guarantee.php' ) echo "active"; ?>">
 							<a href="guarantee.php">Guarantee</a>
 						</li>
-						<li>
+						<li class="<?php if( $uri == '/rapid-data-recovery/contact-us.php' ) echo "active"; ?>">
 							<a href="contact-us.php">Contact Us</a>
 						</li>
 					</ul>

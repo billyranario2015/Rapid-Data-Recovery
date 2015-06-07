@@ -108,8 +108,10 @@
 	section#main-container div.main-content section.row section.form-inquiry {
 		padding-left: 15px !important;
 	}
-	section#main-container div.main-content div.feature-container div.feature-content {
-		float: left;
+	section#main-container div.main-content div.feature-container div.feature-content div.feature-box {
+		min-height: 500px;
+	}
+	section#main-container div.main-content div.feature-container div.feature-content div.feature-box a div.feature-img img {
 		width: 100%;
 	}
 	section#main-container div.main-content section.steps div.step {
@@ -139,6 +141,15 @@
 		text-align: left;
 	}
 	div.article-content div.article-section form div.drive-detail-wrapper {
+		width: 100%;
+	}
+	section#main-container div.main-content div.feature-container div.feature-content div.feature-box {
+		min-height: 1px;
+	}
+	section#main-container div.main-content div.feature-container div.feature-content div.feature-box a div.feature-img img {
+		width: 210px;
+	}
+	div.partners div.container img:last-child {
 		width: 100%;
 	}
 	footer div.about-company div.container > div {

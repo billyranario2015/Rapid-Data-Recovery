@@ -72,8 +72,14 @@ header {
 	margin-top: 15px;
 }
 .feature-content {
-	padding: 0;
+	padding: 0 5px;
 	margin-bottom: 12px;
+}
+.feature-content:first-child {
+	padding-left: 0;
+}
+.feature-content:last-child {
+	padding-right: 0;
 }
 .feature-content a {
 	color: #000;
@@ -92,9 +98,13 @@ header {
 .feature-box a div img {
 	width: 210px;
 }
+.feature-img {
+	text-align: center;
+}
 .feature-content h4 {
 	font-family: Oswald-Reg;
 	text-transform: uppercase;
+	text-align: center;
 }
 .feature-content p {
 	text-align: justify;
@@ -214,6 +224,9 @@ footer .copyright div p {
 {
 	text-decoration: none;
 	background: none;
+	color: #FB9634;
+}
+.nav > li.active > a {
 	color: #FB9634;
 }
 .navbar-toggle {
